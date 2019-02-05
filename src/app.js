@@ -67,7 +67,7 @@ const kitties = [
   new Cat('Cat 2', './img/cat2.jpg'),
   new Cat('Cat 3', './img/cat3.jpg'),
   new Cat('Cat 4', './img/cat4.jpg'),
-  new Cat('Cat 5', './img/cat5.png')
+  new Cat('Cat 5', './img/cat5.jpg')
 ];
 
 // Calls the initial function to start the page
