@@ -4,4 +4,4 @@
 To practice basic JQuery features
 
 ## How To Use
-Click the cat image; the number of times the image is clicked will be displayed at the bottom.
+Click on a Cat's name and the picture will display with the name and how many times that cat has been clicked. Click away! 
