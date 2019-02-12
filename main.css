@@ -1,15 +1,21 @@
 .nameList {
   display: flex;
-  border-color: black;
+}
+
+button {
+  border-color: grey;
   border-style: solid;
-  border-width: 2px;
+  border-width: 1px;
   padding-left: 40px;
   padding-right: 40px;
+  border-radius: 10px;
 }
-.nameList:hover {
+
+button:hover {
   cursor: pointer;
   background-color: rgb(175, 180, 166);
 }
+
 header {
   display: flex;
   flex-direction: row;
