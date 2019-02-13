@@ -6,22 +6,49 @@ button {
   border-color: grey;
   border-style: solid;
   border-width: 1px;
-  padding-left: 40px;
-  padding-right: 40px;
-  border-radius: 10px;
+  width: 90px;
+  text-align: center;
+  border-radius: 5px;
+  margin: auto;
 }
 
 button:hover {
   cursor: pointer;
-  background-color: rgb(175, 180, 166);
+  background-color: rgb(214, 242, 245);
 }
 
 header {
   display: flex;
   flex-direction: row;
+  width: 70%;
+  margin: auto;
 }
-
+img:hover {
+  cursor: pointer;
+}
 img {
   height: 300px;
   width: auto;
+}
+
+.hidden {
+ visibility: hidden;
+}
+
+.admin {
+  display: inline-flex;
+}
+
+#adminButton {
+  width: 50px;
+  text-align: center;
+}
+
+#adminForm {
+  margin-left: 20px;
+}
+#submitButton:hover {
+  cursor: pointer;
+  background-color: rgb(214, 242, 245);
+  border-radius: 5px;
 }

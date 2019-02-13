@@ -9,6 +9,15 @@
     <!-- creating elements to hold the header and display -->
     <header class="nameList"></header>
     <div class="display"></div>
+    <button class="admin hidden" id="adminButton">Admin</button>
+    <div class="admin hidden" id="adminForm">
+      <form>
+        Name: <input type="text" name="name"><br>
+        URL: <input type="text" name="url"><br>
+        Number of Clicks: <input type="text" name="numClicks"><br>
+        <input id="submitButton" type="submit" value="Submit">
+      </form>
+    </div>
 
     <!-- Always need to import JQuery explicitly -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
